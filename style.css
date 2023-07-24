@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+    body{display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgb(52, 112, 241);
+
+    }
+
+    .jeu{
+        display: flex;
+        flex-direction: column;
+    }
+
+    p{
+        color: white;
+        font-size: 18px;
+        font-weight:400;
+        text-transform: capitalize;
+        text-align: center;
+        padding: 5px  10px;
+      
+        border-radius: 7px;
+        margin-bottom: 10px;
+
+    }
+
+    .input{
+        display:flex;
+        flex-direction: column;
+    }
+     .random{
+        color: white;
+        font-size: 50px;
+        font-weight:500;
+        text-align: center;
+        margin: 10px;
+     }
+
+     h2{
+        color: white;
+        text-transform:capitalize ;
+        margin-top: 10px;
+        margin-bottom: 20px;
+     }
+
+     #number{
+        outline: 0;
+      
+        border: none;
+        border-bottom: 1px solid white;
+        background: transparent;
+        margin-bottom: 10px;
+        color:white;
+        font-size: 16px;
+     }
+
+     .but{
+        padding: 5px 20px;
+        border: none;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+        border-radius: 4px;
+        margin: 10px;
+        
+     }
+
+     a{
+        padding: 5px 15px;
+        letter-spacing: 1px;
+        text-decoration: 0;
+        text-transform: capitalize;
+        text-align: center;
+        background-color: transparent;
+        color: white;
+        border-radius: 4px;
+        border: 0.5px solid white;
+        border-top: 0.5px solid #5a5454;
+        display: none;
+     }
